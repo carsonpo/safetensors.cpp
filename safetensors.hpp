@@ -1,7 +1,8 @@
+//  Copyright (c) 2024 - Present, Carson Poole
 #ifndef SAFETENSORS_HPP
 #define SAFETENSORS_HPP
 
-// Constants
+// Arbitrary but reasonable limits; change them if you so desire.
 #define SAFETENSORS_MAX_DIM 8
 #define SAFETENSORS_MAX_TENSORS 2048
 #define SAFETENSORS_MAX_FILE_SIZE (2ULL << 40) // 2 TiB
